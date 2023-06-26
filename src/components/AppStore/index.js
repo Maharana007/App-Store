@@ -304,7 +304,7 @@ class AppStore extends Component {
   }
 
   updateSearchInput = appName => {
-    this.setSate({searchInput: appName})
+    this.setState({searchInput: appName})
   }
 
   clickTabItem = tabValue => {
